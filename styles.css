@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+header .logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    -webkit-text-stroke: 1px black;
+}
+nav {
+    margin-right: 20px;
+}
+nav a {
+    color: rgb(5, 4, 4);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #ff5100;
+}
+
+/* Section Styling */
+section {
+    padding: 60px;
+    text-align: center;
+}
+section h2 {
+    margin-bottom: 40px;
+    font-size: 36px;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -webkit-text-stroke: 1px black;
+}
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+.menu-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.menu-item img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.menu-item h3 {
+    margin: 10px 0;
+    color: #ff5100;
+    font-size: 22px;
+}
+.menu-item p {
+    margin: 5px 0;
+    color: #777;
+    font-size: 18px;
+}
+
+.food-section {
+    background-image: url('makanan.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.drinks-section {
+    background-image: url('minuman.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* YouTube Video Styling */
+.video-container {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0; 
+    background-image: url('makanan.jpg');
+    width: 100%;
+    height: 400px;
+}
+.video-container iframe {
+    width: 80%; 
+    height: 100%; 
+    max-width: 800px; 
+    border: none; 
+}
